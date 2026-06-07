@@ -1,15 +1,15 @@
 import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Lenis from 'lenis';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import WhatsAppFAB from '@/components/WhatsAppFAB';
-import HomePage from '@/pages/HomePage';
-import AboutPage from '@/pages/AboutPage';
-import ProductsPage from '@/pages/ProductsPage';
-import GalleryPage from '@/pages/GalleryPage';
-import TestimonialsPage from '@/pages/TestimonialsPage';
-import ContactPage from '@/pages/ContactPage';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import WhatsAppFAB from './components/WhatsAppFAB';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ProductsPage from './pages/ProductsPage';
+import GalleryPage from './pages/GalleryPage';
+import TestimonialsPage from './pages/TestimonialsPage';
+import ContactPage from './pages/ContactPage';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
